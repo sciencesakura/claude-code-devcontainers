@@ -1,0 +1,27 @@
+{
+  "name": "${localWorkspaceFolderBasename}.claude",
+  "image": "golang:1-alpine",
+  "remoteUser": "claude",
+  "onCreateCommand": ".devcontainer/onCreateCommand.sh",
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "installZsh": false,
+      "installOhMyZsh": false,
+      "installOhMyZshConfig": false,
+      "username": "claude",
+      "userUid": 1000,
+      "userGid": 1000
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": ["golang.go"],
+      "settings": {
+        "[go]": {
+          "editor.defaultFormatter": "golang.go",
+          "editor.formatOnSave": true
+        }
+      }
+    }
+  }
+}
