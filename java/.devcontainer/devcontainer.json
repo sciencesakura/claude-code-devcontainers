@@ -16,7 +16,13 @@
   },
   "customizations": {
     "vscode": {
-      "extensions": ["vscjava.vscode-java-pack"]
+      "extensions": ["vscjava.vscode-java-pack"],
+      "settings": {
+        "[java]": {
+          "editor.defaultFormatter": "redhat.java",
+          "editor.formatOnSave": true
+        }
+      }
     }
   }
 }
