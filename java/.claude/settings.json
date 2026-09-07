@@ -3,12 +3,13 @@
   "permissions": {
     "defaultMode": "acceptEdits",
     "allow": [
+      "Artifact",
       "Bash",
       "Read",
-      "WebFetch"
+      "WebFetch",
+      "WebSearch"
     ],
     "ask": [
-      "Bash(apk add:*)",
       "Bash(git clone:*)",
       "Bash(git push:*)",
       "Bash(sudo:*)",
