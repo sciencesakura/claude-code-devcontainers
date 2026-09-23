@@ -5,15 +5,15 @@
     "allow": [
       "Artifact",
       "Bash",
-      "Read",
+      "Monitor",
+      "Skill",
       "WebFetch",
       "WebSearch"
     ],
     "ask": [
       "Bash(git clone:*)",
       "Bash(git push:*)",
-      "Bash(sudo:*)",
-      "Bash(wget:*)"
+      "Bash(sudo:*)"
     ],
     "deny": [
       "Edit(.devcontainer/**/*)",
