@@ -10,7 +10,7 @@
       "WebSearch"
     ],
     "ask": [
-      "Bash(gem install:*)",
+      "Bash(bundle install:*)",
       "Bash(git clone:*)",
       "Bash(git push:*)",
       "Bash(sudo:*)",

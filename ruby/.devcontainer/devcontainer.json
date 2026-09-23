@@ -1,6 +1,6 @@
 {
   "name": "${localWorkspaceFolderBasename}.claude",
-  "image": "ruby:3-alpine",
+  "image": "ruby:3.4.10-alpine",
   "remoteUser": "claude",
   "onCreateCommand": ".devcontainer/onCreateCommand.sh",
   "features": {
@@ -15,10 +15,10 @@
   },
   "customizations": {
     "vscode": {
-      "extensions": ["shopify.ruby-extensions-pack"],
+      "extensions": ["Shopify.ruby-extensions-pack"],
       "settings": {
         "[ruby]": {
-          "editor.defaultFormatter": "shopify.ruby-lsp",
+          "editor.defaultFormatter": "Shopify.ruby-lsp",
           "editor.formatOnSave": true
         }
       }
