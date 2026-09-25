@@ -1,0 +1,13 @@
+{
+  "name": "${localWorkspaceFolderBasename}.claude",
+  "image": "node:24-alpine",
+  "remoteUser": "node",
+  "onCreateCommand": ".devcontainer/onCreateCommand.sh",
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "installZsh": false,
+      "installOhMyZsh": false,
+      "installOhMyZshConfig": false
+    }
+  }
+}
